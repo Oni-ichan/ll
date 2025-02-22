@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ironclad Gym - Unleash Your Potential</title>
+    <meta name="description" content="Dominate your fitness goals at Ironclad Gym. Expert trainers, state-of-the-art equipment, and a community driven to push limits. Join us and forge your strength. Gym, Fitness, Training, Workout, Strength">
+    <meta name="keywords" content="Gym, Fitness, Training, Workout, Strength, Ironclad, Bodybuilding, Powerlifting, CrossFit, Personal Training">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Custom Styles for Smooth Scrolling and Hover Effects */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .hover-red:hover {
+            background-color: #dc2626; /* Darker Red Hover */
+            color: white;
+            transform: scale(1.05); /* Slight Scale Up */
+            transition: all 0.2s ease-in-out;
+        }
+
+        .bg-gradient-custom {
+            background: linear-gradient(135deg, #111111 0%, #000000 100%); /* Darker Black Gradient */
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+    <!-- Header Section -->
+    <header class="bg-gradient-custom py-6 shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 flex items-center justify-between">
+            <a href="#" class="text-3xl font-bold text-red-600">Ironclad Gym</a>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#about" class="hover:text-gray-300">About</a></li>
+                    <li><a href="#classes" class="hover:text-gray-300">Classes</a></li>
+                    <li><a href="#trainers" class="hover:text-gray-300">Trainers</a></li>
+                    <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+                    <li><a href="#pricing" class="hover:text-gray-300">Pricing</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-black py-24 relative overflow-hidden">
+        <div class="container mx-auto px-4 text-center relative z-10">
+            <h1 class="text-5xl font-extrabold text-red-500 mb-4 uppercase tracking-tight">Unleash Your Inner Beast</h1>
+            <p class="text-lg text-gray-300 mb-8">Forge your strength, shatter your limits. Dominate your fitness goals with Ironclad Gym.</p>
+            <a href="#contact" class="bg-red-600 text-white py-3 px-8 rounded-md hover:bg-red-700 transition-colors duration-300 hover-red inline-block font-bold uppercase tracking-wider">Join Now</a>
+        </div>
+        <div class="absolute inset-0 bg-[url('https://i.imgur.com/qDQxd1R.jpg')] bg-cover bg-center opacity-20"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-800">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div>
+                <img src="https://i.imgur.com/Vs1ZNFj.jpg" alt="About Ironclad Gym" class="rounded-lg shadow-lg">
+            </div>
+            <div>
+                <h2 class="text-3xl font-bold text-red-500 mb-4 uppercase tracking-tight">About Ironclad Gym</h2>
+                <p class="text-gray-300 mb-4">Ironclad Gym is more than just a fitness center; it's a community built on strength, discipline, and unwavering commitment. We provide a cutting-edge training environment with state-of-the-art equipment and expert trainers dedicated to helping you achieve peak performance.</p>
+                <p class="text-gray-300">Whether you're a seasoned athlete or just beginning your fitness journey, Ironclad Gym offers the resources and support you need to crush your goals. Prepare to push your limits and forge an unbreakable physique.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Classes Section -->
+    <section id="classes" class="py-16 bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-red-500 mb-8 text-center uppercase tracking-tight">Our Classes</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Class 1 -->
+                <div class="bg-gray-800 rounded-lg shadow-md p-6">
+                    <img src="https://i.imgur.com/Qt6YJJA.jpg" alt="Strength Training" class="rounded-md mb-4">
+                    <h3 class="text-xl font-semibold text-red-400 mb-2">Strength Training</h3>
+                    <p class="text-gray-300">Build raw power and sculpt your physique with our intense strength training program. Focused on compound movements and progressive overload.</p>
+                </div>
+                <!-- Class 2 -->
+                <div class="bg-gray-800 rounded-lg shadow-md p-6">
+                    <img src="https://i.imgur.com/wMao67k.jpg" alt="Cardio Blast" class="rounded-md mb-4">
+                    <h3 class="text-xl font-semibold text-red-400 mb-2">Cardio Blast</h3>
+                    <p class="text-gray-300">Ignite your metabolism and torch calories with our high-energy cardio blast sessions. Improve endurance and cardiovascular health.</p>
+                </div>
+                <!-- Class 3 -->
+                <div class="bg-gray-800 rounded-lg shadow-md p-6">
+                    <img src="https://i.imgur.com/kE1995H.jpg" alt="Fight Club" class="rounded-md mb-4">
+                    <h3 class="text-xl font-semibold text-red-400 mb-2">Fight Club</h3>
+                    <p class="text-gray-300">Learn self-defense techniques and unleash your inner warrior in our Fight Club classes. Build confidence and discipline.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section id="trainers" class="py-16 bg-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-red-500 mb-8 text-center uppercase tracking-tight">Our Expert Trainers</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Trainer 1 -->
+                <div class="bg-gray-900 rounded-lg shadow-md p-6 text-center">
+                    <img src="https://i.imgur.com/1zxtEJT.jpg" alt="Trainer John" class="rounded-full w-32 h-32 mx-auto mb-4">
+                    <h3 class="text-xl font-semibold text-red-400 mb-2">John "The Hammer" Smith</h3>
+                    <p class="text-gray-300">Specializes in strength and conditioning. Certified in powerlifting and CrossFit.</p>
+                </div>
+                <!-- Trainer 2 -->
+                <div class="bg-gray-900 rounded-lg shadow-md p-6 text-center">
+                    <img src="https://i.imgur.com/JnxUdHx.jpg" alt="Trainer Alice" class="rounded-full w-32 h-32 mx-auto mb-4">
+                    <h3 class="text-xl font-semibold text-red-400 mb-2">Alice "The Machine" Williams</h3>
+                    <p class="text-gray-300">Expert in cardio and endurance training. Certified in personal training and nutrition.</p>
+                </div>
+                <!-- Trainer 3 -->
+                <div class="bg-gray-900 rounded-lg shadow-md p-6 text-center">
+                    <img src="https://i.imgur.com/jYsQWnr.jpg" alt="Trainer Mike" class="rounded-full w-32 h-32 mx-auto mb-4">
+                    <h3 class="text-xl font-semibold text-red-400 mb-2">Mike "The Crusher" Davis</h3>
+                    <p class="text-gray-300">Specializes in combat sports and self-defense. Certified in MMA and Krav Maga.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-16 bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-red-500 mb-8 text-center uppercase tracking-tight">Pricing Plans</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Plan 1 -->
+                <div class="bg-gray-800 rounded-lg shadow-md p-6 text-center">
+                    <h3 class="text-2xl font-semibold text-red-400 mb-2">Basic</h3>
+                    <p class="text-gray-300 text-4xl font-bold">$49<span class="text-sm">/month</span></p>
+                    <ul class="mt-4 space-y-2">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Gym Access</li>
+                        <li><i class="fas fa-times text-red-500 mr-2"></i>Group Classes</li>
+                        <li><i class="fas fa-times text-red-500 mr-2"></i>Personal Training</li>
+                    </ul>
+                    <a href="#contact" class="mt-6 bg-red-600 text-white py-3 px-6 rounded-md hover:bg-red-700 transition-colors duration-300 hover-red inline-block font-bold uppercase tracking-wider">Get Started</a>
+                </div>
+                <!-- Plan 2 -->
+                <div class="bg-gray-800 rounded-lg shadow-md p-6 text-center">
+                    <h3 class="text-2xl font-semibold text-red-400 mb-2">Pro</h3>
+                    <p class="text-gray-300 text-4xl font-bold">$79<span class="text-sm">/month</span></p>
+                    <ul class="mt-4 space-y-2">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Gym Access</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Group Classes</li>
+                        <li><i class="fas fa-times text-red-500 mr-2"></i>Personal Training</li>
+                    </ul>
+                    <a href="#contact" class="mt-6 bg-red-600 text-white py-3 px-6 rounded-md hover:bg-red-700 transition-colors duration-300 hover-red inline-block font-bold uppercase tracking-wider">Get Started</a>
+                </div>
+                <!-- Plan 3 -->
+                <div class="bg-gray-800 rounded-lg shadow-md p-6 text-center">
+                    <h3 class="text-2xl font-semibold text-red-400 mb-2">Elite</h3>
+                    <p class="text-gray-300 text-4xl font-bold">$129<span class="text-sm">/month</span></p>
+                    <ul class="mt-4 space-y-2">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Gym Access</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Group Classes</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Personal Training</li>
+                    </ul>
+                    <a href="#contact" class="mt-6 bg-red-600 text-white py-3 px-6 rounded-md hover:bg-red-700 transition-colors duration-300 hover-red inline-block font-bold uppercase tracking-wider">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-red-500 mb-8 text-center uppercase tracking-tight">Contact Us</h2>
+            <form class="max-w-lg mx-auto">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-300 text-sm font-bold mb-2">Name:</label>
+                    <input type="text" id="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-gray-700 text-white" placeholder="Your Name">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-300 text-sm font-bold mb-2">Email:</label>
+                    <input type="email" id="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-gray-700 text-white" placeholder="Your Email">
+                </div>
+                <div class="mb-6">
+                    <label for="message" class="block text-gray-300 text-sm font-bold mb-2">Message:</label>
+                    <textarea id="message" rows="5" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-gray-700 text-white" placeholder="Your Message"></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="bg-red-600 text-white py-3 px-8 rounded-md hover:bg-red-700 transition-colors duration-300 hover-red font-bold uppercase tracking-wider">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 py-8 text-center">
+        <p class="text-gray-500">© 2024 Ironclad Gym. All rights reserved.</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
